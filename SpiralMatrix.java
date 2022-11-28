@@ -1,3 +1,7 @@
+// Problem title:- 54. Spiral Matrix 
+
+// Problem link :- https://leetcode.com/problems/spiral-matrix/
+
 import java.util.*;
 
 class SpiralMatrix{
@@ -56,6 +60,9 @@ class SpiralMatrix{
             }
         }
         List<Integer> L = new ArrayList<>();
+
+        // To make spiralmatrix class non static following two line code ...
+        
         SpiralMatrix order=new SpiralMatrix();
         L=order.spiralOrder(matrix);
         System.out.print(L);
